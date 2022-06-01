@@ -27,7 +27,7 @@ public class CalculatorTest {
 		int actual = cal.add(a, b);
 		
 		//Assert --> Check that the output is as intended based on input given
-		int expected = 5555;
+		int expected = 5555; // Cannot use a * b must be specific value
 		assertEquals(expected, actual);
 	}
 	
